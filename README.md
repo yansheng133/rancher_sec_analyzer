@@ -18,7 +18,7 @@ Ollama AI Fallback: Integrates with local Small Language Models (SLMs) like llam
 1. Clone the repository & install dependencies
 git clone [YOUR_REPO_URL]
 cd rancher_sec_analyzer
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 pip install requests urllib3 beautifulsoup4 python-dotenv tqdm
 
@@ -26,6 +26,7 @@ pip install requests urllib3 beautifulsoup4 python-dotenv tqdm
 Create a .env file in the root directory. Note: This file is ignored by Git to protect your secrets.
 
 SUSE_APPCO_USER=your_service_account
+
 SUSE_APPCO_SECRET=your_secret_token
 
 Filtering Options
