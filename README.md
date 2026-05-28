@@ -29,14 +29,16 @@ SUSE_APPCO_USER=your_service_account
 
 SUSE_APPCO_SECRET=your_secret_token
 
-Filtering Options
-INCLUDE_HEAD_RELEASES=false
+#Filtering Options
+#INCLUDE_HEAD_RELEASES=false
 
 Setup AI Fallback (Optional, requires Ollama running locally)
+
 USE_OLLAMA_AI=true
+
 OLLAMA_MODEL=llama3
 
-3. Define Custom Aliases (Optional)
+3. Define Custom Aliases (Optional, already have default mappings)
 Create an aliases.json in the root directory to handle hardcoded naming exceptions. The script processes these after stripping system prefixes.
 
 {
