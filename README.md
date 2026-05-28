@@ -1,4 +1,4 @@
-# Rancher CVE AppCo Analyzer (Enterprise Hybrid Edition)
+# Rancher CVE AppCo Analyzer
 
 A robust, enterprise-grade Vulnerability Management tool designed to bridge the gap between Rancher CVE scan reports and the SUSE Application Collection (AppCo).
 
