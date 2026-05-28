@@ -1,0 +1,8 @@
+{
+    "grafana-grafana-image-renderer": "grafana-image-renderer",
+    "prom-prometheus": "prometheus",
+    "kube-state-metrics": "kube-state-metrics",
+    "longhornio-backing-image-manager": "longhorn-backing-image-manager",
+    "longhornio-longhorn-engine": "longhorn-engine",
+    "longhornio-longhorn-instance-manager": "longhorn-instance-manager"
+}
